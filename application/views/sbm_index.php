@@ -32,6 +32,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#form_sbm">Cari SBM</a></li>
                             <li class="nav-item"><a class="nav-link" href="#tentang">Read me</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                             <li class="nav-item active"><a class="nav-link" target="_blank" href="https://yudiprasetya.com">Yudi Prasetya</a></li> 							
@@ -44,7 +45,7 @@
         
         <!--================Banner Area =================-->
         <section class="banner_area">
-            <div class="booking_table d_flex align-items-center">
+            <div class="booking_table d_flex align-items-center" id="form_sbm">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
@@ -56,7 +57,7 @@
 					</div>
 				</div>
             </div>
-            <div class="hotel_booking_area position">
+            <div class="hotel_booking_area position" id="hasil">
                 <div class="container">
                     <div class="row hotel_booking_table" style="padding-left: 80px">
 						<div class="col-md-12">
@@ -120,7 +121,7 @@
                                     </div>
                                     <div class="col-md-2">
                                         <div class="book_tabel_item">										
-                                            <a class="book_now_btn button_hover" href="#">Submit</a>
+                                            <a class="book_now_btn button_hover" href="#hasil">Submit</a>
                                         </div>
                                     </div>
                                 </div>
@@ -142,12 +143,7 @@
                 <div class="row mb_30">
                     <div class="col-lg-12 col-sm-12">
                         <div class="accomodation_item text-center">
-                            <div class="hotel_img">
-                                <img src="image/room1.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover">dd</a>
-                            </div>
-                            <a href="#"><h4 class="sec_h4">Double Deluxe Room</h4></a>
-                            <h5>$250<small>/night</small></h5>
+
                         </div>
                     </div>
                 </div>
@@ -201,7 +197,7 @@
                     <div class="col-lg-6  col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">Tentang Kami</h6>
-                            <p>Halo salam kenal. Saya Yudi Prasetya founder dari aplikasi ini. Saya berharap semoga aplikasi ini dapat bermanfaat bagi teman-teman semua. Terkait kritik, saran, maupun masukan teman-teman dapat menghubungi saya di email prasetyaningyudi@gmail.com</p>
+                            <p>Halo salam kenal. Saya Yudi Prasetya founder dari aplikasi ini. Saya berharap semoga aplikasi ini dapat bermanfaat bagi teman-teman semua. Terkait kritik, saran, maupun masukan teman-teman dapat menghubungi saya di email <span style="color:#F3C300">prasetyaningyudi@gmail.com</span></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
